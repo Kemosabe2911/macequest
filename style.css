@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color: #ffffff;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container .center-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /*font-family: 'Londrina',sans-serif;*/
+}
+.container .center-container h1{
+    margin: 10px 0px;
+    font-size: 6em;
+    font-family: 'Carter One',sans-serif;
+}
+.container .center-container h2{
+    margin: 10px 0px;
+    font-size: 40px;
+    font-family: 'Acme',sans-serif;
+}
+.container .center-container a{
+    text-decoration: none;
+}
+.container .center-container .btn-start{
+    padding: 10px 15px;
+    margin: 20px 0px;
+    background-color: #ffffff;
+    color: #000000;
+    border: 2px solid #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Poppins',sans-serif;
+    cursor: pointer;
+    transition: 0.8s;
+}
+.container .center-container .btn-start:hover{
+    color: #ffffff;
+    background-color: #000000;
+}
+
