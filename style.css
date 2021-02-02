@@ -41,6 +41,7 @@ body{
 }
 .container .center-container a{
     text-decoration: none;
+    font-weight: 700;
 }
 .container .center-container .btn-start{
     padding: 10px 15px;
@@ -49,7 +50,7 @@ body{
     color: #000000;
     border: 2px solid #ffffff;
     font-size: 20px;
-    font-weight: bold;
+    font-weight: 700;
     font-family: 'Poppins',sans-serif;
     cursor: pointer;
     transition: 0.8s;
